@@ -5,7 +5,7 @@ const data = {
   number2: 456
 };
 
-axios.post("https://opcua-1.onrender.com/data", data)
+axios.post("https://opcua-2.onrender.com/data", data)
   .then(response => {
     console.log("✅ Đã gửi dữ liệu thành công:", response.data);
   })
