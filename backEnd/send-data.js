@@ -1,8 +1,8 @@
 const axios = require("axios");
 
 const data = {
-  number1: 123,
-  number2: 456
+  number1: 10,
+  number2: 10
 };
 
 axios.post("https://opcua-2.onrender.com/data", data)
